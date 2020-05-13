@@ -1,6 +1,6 @@
 Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=143
 Upstream-Name: systemd-kcm
-Upstream-Source: 
+Upstream-Source: https://github.com/KDE/systemd-kcm
 
 Files: *
 Copyright: Copyright © 2020 Ragnar Thomsen <rthomsen6@gmail.com>
