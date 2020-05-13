@@ -1,0 +1,15 @@
+Source: systemd-kcm
+Section: x11
+Priority: optional
+Maintainer: Enrique Medina Gremaldos <quiqueiii@gmail.com>
+Uploaders: Enrique Medina Gremaldos <quiqueiii@gmail.com>
+Build-Depends: debhelper (>=10), cmake, extra-cmake-modules, qtbase5-dev, libkf5i18n-dev, libkf5coreaddons-dev
+Standards-Version: 4.1.2
+
+ 
+Package: systemd-kcm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Systemd kcm add-on
+ A Plasma kcm add-on to manage systemd services
+ 
