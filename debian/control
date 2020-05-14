@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Enrique Medina Gremaldos <quiqueiii@gmail.com>
 Uploaders: Enrique Medina Gremaldos <quiqueiii@gmail.com>
-Build-Depends: debhelper (>=10), cmake, extra-cmake-modules, qtbase5-dev, libkf5i18n-dev, libkf5coreaddons-dev, libkf5auth-dev, libkf5configwidgets-dev, libkf5crash-dev, libkf5kio-dev, libkf5widgetsaddons-dev
+Build-Depends: debhelper (>=10), cmake, extra-cmake-modules, qtbase5-dev, libkf5i18n-dev, libkf5coreaddons-dev, libkf5auth-dev, libkf5configwidgets-dev, libkf5crash-dev, libkf5kio-dev, libkf5widgetsaddons-dev, pkg-config
 Standards-Version: 4.1.2
 
  
