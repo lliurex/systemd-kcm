@@ -7,6 +7,7 @@ set(KF5_MIN_VERSION "5.1.0")
 
 # Silence a warning
 cmake_policy(SET CMP0037 OLD)
+cmake_policy(SET CMP0063 OLD)
 
 find_package(ECM 1.1.0 REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR})

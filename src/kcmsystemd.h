@@ -65,9 +65,9 @@ class kcmsystemd : public KCModule
   public:
     explicit kcmsystemd(QWidget *parent,  const QVariantList &args);
     ~kcmsystemd();
-    void defaults();
-    void load();
-    void save();
+    void defaults() override;
+    void load() override;
+    void save() override;
 
   private:
     Ui::kcmsystemd ui;
@@ -78,7 +78,7 @@ class kcmsystemd : public KCModule
     void setupTimerlist();
     void readConfFile(int);
     void authServiceAction(QString, QString, QString, QString, QList<QVariant>);
-    bool eventFilter(QObject *, QEvent*);
+    bool eventFilter(QObject *, QEvent*) override;
     void updateUnitCount();
     void displayMsgWidget(KMessageWidget::MessageType type, QString msg);
     QList<SystemdUnit> getUnitsFromDbus(dbusBus bus);
