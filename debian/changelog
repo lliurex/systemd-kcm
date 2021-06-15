@@ -1,3 +1,9 @@
+systemd-kcm (1.2.1.gitc851bc8.4+lliurex1) bionic; urgency=medium
+
+  * Focal release
+
+ -- Juanma1980 <juanma1980@gmail.com>  Tue, 15 Jun 2021 18:05:03 +0200
+
 systemd-kcm (1.2.1.gitc851bc8.4) bionic; urgency=medium
 
   * Master release: c851bc899bbd2ac1f17d87eb42b193708a2fc325
